@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>JS Buổi 4</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- MATERIAL DESIGN ICONIC FONT -->
+	<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css" />
+
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+	<!-- Bài 1 -->
+	<div class="wrapper">
+		<div class="inner">
+			<!-- <form action=""> -->
+			<h3>Bài 1</h3>
+			<p>Quản lý tuyển sinh</p>
+			<label class="form-group">
+				<select style="background-color: black; width: 100%" name="" id="khuVuc">
+					<option>Khu vực</option>
+					<option value="A">A</option>
+					<option value="B">B</option>
+					<option value="C">C</option>
+				</select>
+			</label>
+			<label class="form-group">
+				<select style="background-color: black; width: 100%" name="" id="doiTuong">
+					<option>Đối tượng</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+				</select>
+			</label>
+			</label>
+			<label class="form-group">
+				<input id="diemChuan" type="text" class="form-control" required />
+				<span for="">Điểm chuẩn</span>
+				<span class="border"></span>
+			</label>
+
+			<label class="form-group">
+				<input id="diemMon1" type="text" class="form-control" required />
+				<span for="">Điểm môn 1</span>
+				<span class="border"></span>
+			</label>
+
+			<label class="form-group">
+				<input id="diemMon2" type="text" class="form-control" required />
+				<span for="">Điểm môn 2</span>
+				<span class="border"></span>
+			</label>
+
+			<label class="form-group">
+				<input id="diemMon3" type="text" class="form-control" required />
+				<span for="">Điểm môn 3</span>
+				<span class="border"></span>
+			</label>
+
+
+			<button id="btn-XetTuyen">
+				Xét tuyển
+				<i class="zmdi zmdi-arrow-right"></i>
+			</button>
+			<!-- </form> -->
+			<div class="ketQua" id="ketqua-xetTuyen"></div>
+		</div>
+	</div>
+
+	<!-- Bài 2 -->
+	<div class="wrapper">
+		<div class="inner">
+			<!-- <form action=""> -->
+			<h3>Bài 2</h3>
+			<p>Tính tiền điện</p>
+
+			</label>
+			<label class="form-group">
+				<input id="hoTen" type="text" class="form-control" required />
+				<span for="">Họ tên</span>
+				<span class="border"></span>
+			</label>
+
+			<label class="form-group">
+				<input id="soKw" type="text" class="form-control" required />
+				<span for="">Số Kw</span>
+				<span class="border"></span>
+			</label>
+
+			<button id="btn-tinhTien">
+				Tính tiền
+				<i class="zmdi zmdi-arrow-right"></i>
+			</button>
+			<!-- </form> -->
+			<div class="ketQua" id="ketqua-tinhTien"></div>
+		</div>
+	</div>
+
+	<script src="./main.js"></script>
+</body>
+
+</html>
